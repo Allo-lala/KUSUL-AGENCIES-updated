@@ -5,11 +5,37 @@
     --light: #EEF9FF;
     --dark: #e01a1a;
 }
+/* background Pri */
+
+.bg-primary {
+    background-color: #ffffffd9 !important;
+}
+
+
 
 a {
     color: #1000ff;
     text-decoration: none;
 }
+.timeline-icon {
+    
+    color: #ff0800;
+    
+  }
+  .eline-icon {
+    
+    color: #01a51c;
+    
+  }
+/* background light  */
+  .bg-light {
+    background-color: #00a5ff00 !important;
+}
+.zuf {
+    
+    color: #ffffffd9;
+    
+  }
 
 /*** Spinner ***/
 .spinner {
@@ -40,12 +66,9 @@ a {
     border-color: #ad1b1b;
 }
 
-/* jiji and fuzu inline block */
 .inl {
     display: inline-block;
  }
-
-/* read more*/
 
 body {
     padding:30px;
@@ -84,7 +107,6 @@ body {
 
 
 
-/***********/
 body {
     padding:30px;
 }
@@ -111,9 +133,7 @@ body {
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
-.bg-primary {
-    background-color: #011cddd9 !important;
-}
+
 .text-primary {
     color: #080202 !important;
 }
@@ -142,7 +162,6 @@ body {
     visibility: visible;
     opacity: 1;
 }
-
 
 /*** Heading ***/
 h1,
@@ -220,6 +239,7 @@ h6,
     font-weight: 600;
     outline: none;
     transition: .5s;
+    user-select: none;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -688,10 +708,10 @@ h6,
   /* logoooooooooooooooooooooooooooooooooooooo */
   #logo {
     display: inline-block;
-    margin: 15px; /* margin: 20px was off */
+    margin: 15px;
     float: left;
     height: 60px;
-    width: auto; /* correct proportions to specified height */
-    border-radius: 50%; /* makes it a circle */
+    width: auto; 
+    border-radius: 50%; 
   }
 

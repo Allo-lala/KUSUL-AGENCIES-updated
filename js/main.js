@@ -10,7 +10,6 @@
         }, 1);
     };
     spinner();
-    
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
@@ -105,7 +104,4 @@
             }
         }
     });
-    
 })(jQuery);
-
-
